@@ -164,7 +164,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      pngtree-game-over-game-end-failure-background-image_284540_0: 3985124345731530844
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

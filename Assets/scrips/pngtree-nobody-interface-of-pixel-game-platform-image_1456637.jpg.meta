@@ -164,7 +164,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      pngtree-nobody-interface-of-pixel-game-platform-image_1456637_0: -9127041186973239886
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
