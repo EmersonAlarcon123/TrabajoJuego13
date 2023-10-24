@@ -17,9 +17,18 @@ public class LifePlayer : MonoBehaviour
     public void LifeChange(int value)
     {
         life -= value;
-        if(life < 0)
+        if(life <= 0)
         {
             Destroy(gameObject);
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            LifeChange(1);
+            collision.GetComponent<LifeEnemy>().life -= 1;
         }
     }
 }
