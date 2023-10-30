@@ -32,4 +32,17 @@ public class Bullet : MonoBehaviour
     {
         rb2D.velocity = direction.normalized * speed;
     }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            collision.gameObject.GetComponent<LifeEnemy>().LifeChange(1);
+            collision.GetComponent<LifeEnemy>().life -= 1;
+            Destroy(gameObject);
+        }
+        if(collision.gameObject.CompareTag("Untagged"))
+        {
+            Destroy(gameObject);
+        }
+    }
 }

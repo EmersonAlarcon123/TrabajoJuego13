@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2782698702876430470}
   - component: {fileID: 6769187605075104136}
   m_Layer: 0
-  m_Name: Circle (4)
+  m_Name: CoinSuelo
   m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -107,7 +107,6 @@ CircleCollider2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8386403828297842807}
   m_Enabled: 1
-  serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -131,7 +130,7 @@ CircleCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
+  m_UsedByComposite: 0
   m_Offset: {x: 0, y: -0.0017021218}
+  serializedVersion: 2
   m_Radius: 0.4982979

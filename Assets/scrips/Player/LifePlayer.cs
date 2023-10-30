@@ -18,7 +18,6 @@ public class LifePlayer : MonoBehaviour
         life -= value;
         if(life <= 0)
         {
-            Destroy(gameObject);
             SceneManager.LoadScene(2);
         }
     }

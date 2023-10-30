@@ -15,7 +15,7 @@ public class Generador : MonoBehaviour
     {
         yield return new WaitForSeconds(1f);
         Instantiate(prefabCoin, transform.position, transform.rotation);
-        yield return new WaitForSeconds(5f);
+        yield return new WaitForSeconds(3.5f);
         StartCoroutine(Generate());
     }
 }
