@@ -9,13 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu principal.unity
     guid: 7c9da0f566030324c95c5b4d363f3a40
   - enabled: 1
-    path: Assets/Scenes/PruebaPlayer.unity
+    path: Assets/Scenes/Nivel1.unity
     guid: e8e73465ff1f7c34f9845040a4a2ede8
-  - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/derrota.unity
     guid: b821559ae44c56f429e45ce10ce392e3
   m_configObjects: {}
-  m_UseUCBPForAssetBundles: 0

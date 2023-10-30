@@ -67,6 +67,9 @@ LightmapSettings:
     m_LightmapParameters: {fileID: 0}
     m_LightmapsBakeMode: 1
     m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
     m_ReflectionCompression: 2
     m_MixedBakeMode: 2
     m_BakeBackend: 1
@@ -266,6 +269,7 @@ GameObject:
   - component: {fileID: 546628952}
   - component: {fileID: 546628951}
   - component: {fileID: 546628950}
+  - component: {fileID: 546628953}
   m_Layer: 0
   m_Name: salir
   m_TagString: Untagged
@@ -336,7 +340,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 546628951}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 546628953}
+        m_TargetAssemblyTypeName: CambioDeScena, Assembly-CSharp
+        m_MethodName: Exit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &546628951
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -375,6 +391,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 546628948}
   m_CullTransparentMesh: 1
+--- !u!114 &546628953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 546628948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f538f041874a464e95565c3a97ca98a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scene: 0
 --- !u!1 &673486922
 GameObject:
   m_ObjectHideFlags: 0
@@ -861,6 +890,7 @@ GameObject:
   - component: {fileID: 1800376254}
   - component: {fileID: 1800376253}
   - component: {fileID: 1800376252}
+  - component: {fileID: 1800376255}
   m_Layer: 0
   m_Name: Button
   m_TagString: Untagged
@@ -931,7 +961,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1800376253}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1800376255}
+        m_TargetAssemblyTypeName: CambioDeScena, Assembly-CSharp
+        m_MethodName: CambioEscena
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1800376253
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -970,6 +1012,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1800376250}
   m_CullTransparentMesh: 1
+--- !u!114 &1800376255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1800376250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f538f041874a464e95565c3a97ca98a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scene: 1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

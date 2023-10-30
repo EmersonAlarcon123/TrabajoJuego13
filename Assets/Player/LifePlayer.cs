@@ -1,7 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LifePlayer : MonoBehaviour
 {
@@ -20,6 +19,7 @@ public class LifePlayer : MonoBehaviour
         if(life <= 0)
         {
             Destroy(gameObject);
+            SceneManager.LoadScene(2);
         }
     }
 
